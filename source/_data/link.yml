@@ -23,6 +23,13 @@
       siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
       color: vip
       tag: 技术
+    - name: skyboom
+      link: https://lhystutest.top
+      avatar: https://avatars.githubusercontent.com/u/97374782?v=4
+      descr: 春风若有怜花意，可否许我再少年
+      siteshot: https://avatars.githubusercontent.com/u/97374782?v=4
+      color: vip
+      tag: 技术
 
 - class_name: 小伙伴
   class_desc: 那些人，那些事
@@ -33,4 +40,9 @@
       link: https://blog.anheyu.com/
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
       descr: 生活明朗，万物可爱
+      recommend: true
+    - name: skyboom
+      link: https://lhystutest.top
+      avatar: https://avatars.githubusercontent.com/u/97374782?v=4
+      descr: 春风若有怜花意，可否许我再少年
       recommend: true

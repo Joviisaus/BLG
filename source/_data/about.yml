@@ -12,39 +12,60 @@
      -  爱折腾的机灵鬼 🔨
      -  会拍一点小照片 📸
      -  平时玩点小单机 🎮
-  name: 欧阳靖
-  description: 是一名研0大学生，热爱生活，热爱学习，热爱编程，热爱体验。欢迎来到我的小站，希望你能在这里找到你想要的。
+  name: Jing
+  description: 是一名研0大学生，热爱生活，热爱学习，热爱编程，热爱体验。欢迎来到我的小破站，希望你能在这里找到你想要的。
   aboutsiteTips:
-    tips: 追求
-    title1: 源于
-    title2: 热爱而去 感受
+    tips: 革新
+    title1: 来源
+    title2: 勇气而去 挑战
     word:
-      - 学习
-      - 生活
-      - 程序
-      - 体验
-  helloAbout: Hello there!
+      - 未知
+      - 极限
+      - 对手
+      - 自我
+  helloAbout: Hello World
   skillsTips:
     tips: 技能
     title: 开启创造力
+    list:
+      - desc: C++
+        color: "#357ef5"
+      - desc: OpenGL
+        color: "#357e00"
+      - desc: OGG
+        color: "#357e00"
+      - desc: MeshLib
+        color: "#357e00"
+      - desc: Vim
+        color: "#357e00"
+      - desc: Node
+        color: "#357e00"
+      - desc: Python
+        color: "#357e00"
+      - desc: Java
+        color: "#357e00"
+      - desc: C#
+        color: "#357e00"
+      - desc: Git
+        color: "#357e00"
   careers:
     tips: 生涯
-    title: 无限进步
+    title: 宁静致远
     list:
       - desc: DUT,软件工程专业(本科)
         color: "#357ef5"
       - desc: DUT,软件工程专业(硕士)
-        color: "#357ef5"
-    # img: https://bu.dusays.com/2023/04/21/644287166329b.png
+        color: "#357e00"
+    img: https://bu.dusays.com/2024/05/30/6658808576da4.png
   statistic:
     link: /archives
     text: 文章隧道
-    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+    cover: https://bu.dusays.com/2024/05/30/665880f4dc2ac.png
   map:
     title: 我现在住在
-    StrengthenTitle: 中国，长沙市
-    background: https://bu.dusays.com/2023/07/05/64a4c61cb20ef.jpg
-    backgroundDark: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
+    StrengthenTitle: 中国，辽宁，大连
+    background: https://bu.dusays.com/2024/05/30/66587a98bd74c.png
+    backgroundDark: https://bu.dusays.com/2024/05/30/66587a98bd74c.png
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2002
@@ -53,24 +74,24 @@
     selfInfoTips3: 现在职业
     selfInfoContent3: 学生
   personalities:
-    author_name: 执政官
+    author_name: 逻辑学家
     personality_type: INTP
     photo_url: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
-    personality_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.8/img/svg/ESFJ-A.svg
-    name_url: https://www.16personalities.com/ch/esfj-%E4%BA%BA%E6%A0%BC
+    personality_img: https://th.bing.com/th/id/OIP.cuZP0W-0JcWl7P1QM-WdDQHaGV?w=213&h=182&c=7&r=0&o=5&dpr=2&pid=1.7
+    name_url: https://www.16personalities.com/ch/类型描述
   maxim:
     maxim_tips: 座右铭
-    maxim_top: 生活明朗，
-    maxim_bottom: 万物可爱。
+    maxim_top: 硕大的理想
+    maxim_bottom: 激情地思考。
   buff:
-    buff_tips: 特长
-    buff_top: 脑回路新奇的 酸菜鱼
-    buff_bottom: 二次元指数 MAX
+    buff_tips: 爱好特长
+    buff_top: 轮滑🛼、萨克斯🎷、摄影📷
+    buff_bottom: 但是好久没玩了🥵
   game:
     game_tips: 爱好游戏
-    game_title: 原神
-    game_uid: "UID: 125766904"
-    game_bg: https://bu.dusays.com/2023/04/22/64433bf26e25d.webp
+    game_title: 塞尔达
+    #game_uid: "UID: 125766904"
+    game_bg: https://th.bing.com/th/id/OIP.Cv_h0XbOMMDSfXA-k8J-PgHaEo?w=260&h=180&c=7&r=0&o=5&dpr=2&pid=1.7
   comic:
     comic_tips: 爱好番剧
     comic_title: 追番
@@ -97,54 +118,54 @@
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
-    music_title: 许嵩、民谣、华语流行
-    music_bg: https://p2.music.126.net/Mrg1i7DwcwjWBvQPIMt_Mg==/79164837213438.jpg
+    music_title: 周杰伦、杨千嬅、陈奕迅
+    music_bg: https://th.bing.com/th/id/OIP.vxs9JKWPLl2laux-By3PEwHaFj?w=253&h=190&c=7&r=0&o=5&dpr=2&pid=1.7
     music_link: /music
-  reward_list:
-    - name: 海阔蓝
-      amount: 8.8
-      datatime: 2023-03-28
-    - name: LK66
-      amount: 66.6
-      datatime: 2023-03-24
-    - name: 张时貳
-      amount: 6.6
-      datatime: 2023-01-22
-    - name: ZeroAf
-      amount: 9.9
-      datatime: 2022-12-14
-    - name: LuckyWangXi
-      amount: 6.6
-      datatime: 2022-12-14
-    - name: 刀中日月长
-      amount: 10
-      datatime: 2022-11-16
-    - name: 鹿啵包
-      amount: 10
-      datatime: 2022-11-08
-    - name: 疾速k
-      amount: 50
-      datatime: 2022-09-20
-    - name: 伴舟先生大霖子
-      amount: 4.03
-      datatime: 2022-10-27
-      suffix: 贝壳
-    - name: Magica_0x0
-      amount: 3.36
-      datatime: 2022-10-07
-      suffix: 贝壳
-    - name: 名字就是要短像这样
-      amount: 3.36
-      datatime: 2022-08-25
-      suffix: 贝壳
-    - name: Leviathan520
-      amount: 1.34
-      datatime: 2022-08-23
-      suffix: 贝壳
-    - name: 托马斯
-      amount: 10
-      datatime: 2022-08-19
-    - name: 哇是猫猫欸
-      amount: 1.34
-      datatime: 2022-08-19
-      suffix: 贝壳
+  # reward_list:
+  #   - name: 海阔蓝
+  #     amount: 8.8
+  #     datatime: 2023-03-28
+  #   - name: LK66
+  #     amount: 66.6
+  #     datatime: 2023-03-24
+  #   - name: 张时貳
+  #     amount: 6.6
+  #     datatime: 2023-01-22
+  #   - name: ZeroAf
+  #     amount: 9.9
+  #     datatime: 2022-12-14
+  #   - name: LuckyWangXi
+  #     amount: 6.6
+  #     datatime: 2022-12-14
+  #   - name: 刀中日月长
+  #     amount: 10
+  #     datatime: 2022-11-16
+  #   - name: 鹿啵包
+  #     amount: 10
+  #     datatime: 2022-11-08
+  #   - name: 疾速k
+  #     amount: 50
+  #     datatime: 2022-09-20
+  #   - name: 伴舟先生大霖子
+  #     amount: 4.03
+  #     datatime: 2022-10-27
+  #     suffix: 贝壳
+  #   - name: Magica_0x0
+  #     amount: 3.36
+  #     datatime: 2022-10-07
+  #     suffix: 贝壳
+  #   - name: 名字就是要短像这样
+  #     amount: 3.36
+  #     datatime: 2022-08-25
+  #     suffix: 贝壳
+  #   - name: Leviathan520
+  #     amount: 1.34
+  #     datatime: 2022-08-23
+  #     suffix: 贝壳
+  #   - name: 托马斯
+  #     amount: 10
+  #     datatime: 2022-08-19
+  #   - name: 哇是猫猫欸
+  #     amount: 1.34
+  #     datatime: 2022-08-19
+  #     suffix: 贝壳

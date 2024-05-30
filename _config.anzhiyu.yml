@@ -776,7 +776,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: /image/header.jpeg # 自定加载动画义头像
+  avatar: /image/header.png # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------

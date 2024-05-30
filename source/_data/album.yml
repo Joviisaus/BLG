@@ -1,0 +1,64 @@
+- class_name: 小瞬间
+  path_name: /scenery
+  type: 1
+  description: 这里存放的是一些不经意的小风景
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://bu.dusays.com/2024/05/30/66586c4a21308.png
+  cover: https://bu.dusays.com/2024/05/30/66586c454807e.png
+  album_list:
+    - date: 2024-05-27 10:00:00
+      content: 吉龙岛号轮渡
+      address: 辽宁大连
+      from: 海里的日出哦🌄
+      image:
+        - https://bu.dusays.com/2024/05/30/6658702e51d5e.png
+    - date: 2024-05-27 10:00:00
+      content: 吉龙岛号轮渡
+      address: 辽宁大连
+      from: 海上夜景，全靠月光🌛
+      image:
+        - https://bu.dusays.com/2024/05/30/6658702e52a58.png
+    - date: 2024-05-27 10:00:00
+      content: 跟着船一起走的海鸥
+      address: 辽宁大连
+      from: 一起看海的小伙伴🐦
+      image:
+        - https://bu.dusays.com/2024/05/30/6658702e45243.png
+
+- class_name: 养琳日记
+  path_name: /lin
+  type: 1
+  description: 这里存放的是有关我们的故事。
+  cover: https://bu.dusays.com/2024/05/30/665823b56b8f8.jpg
+  top_background: https://bu.dusays.com/2024/05/30/66586c4a21308.png
+  # rowHeight: 220
+  limit: 10
+  # lazyload: true
+  # btnLazyload: false
+  # url: false
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - date: 2024-05-30 01:00:00
+      content: 非常好阳光
+      address: 辽宁大连
+      from: 感谢百万摄影师姜桑😭
+      image:
+        - https://bu.dusays.com/2024/05/30/665823b38124a.jpg
+    - date: 2024-05-30 01:00:00
+      content: 开花了
+      address: 辽宁大连
+      from: 除了虫子多就很完美
+      image:
+        - https://bu.dusays.com/2024/05/30/665823b4dc082.jpg
+        - https://bu.dusays.com/2024/05/30/665823b56b8f8.jpg
+    - date: 2024-05-30 01:00:00
+      content: 小琳逆光也好看
+      address: 辽宁大连
+      from: 我不漏正脸最好看😭
+      image:      
+        - https://bu.dusays.com/2024/05/30/665823b449804.jpg
+    
+        
+

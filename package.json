@@ -12,12 +12,14 @@
     "version": "7.2.0"
   },
   "dependencies": {
+    "badge-maker": "^3.3.1",
     "hexo": "^7.0.0",
     "hexo-bilibili-bangumi": "^1.9.0",
     "hexo-butterfly-envelope": "^1.0.15",
     "hexo-cli": "^4.3.2",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
+    "hexo-generator-feed": "^3.0.0",
     "hexo-generator-index": "^3.0.0",
     "hexo-generator-tag": "^2.0.0",
     "hexo-migrator-rss": "^1.1.0",
@@ -26,6 +28,7 @@
     "hexo-renderer-pug": "^3.0.0",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-theme-landscape": "^1.0.0"
+    "hexo-theme-landscape": "^1.0.0",
+    "hexo-wordcount": "^6.0.1"
   }
 }

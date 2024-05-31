@@ -24,7 +24,7 @@ highlight_shrink:
 aside:
 swiper_index: 1
 top_group_index: 1
-ai: 
+ai: true 
 background: "#fff"
 ---
 

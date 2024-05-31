@@ -152,3 +152,12 @@ bangumi: # 追番设置
     top_img: false
     lazyload:
       enable: false
+
+feed:
+    type: atom
+    path: atom.xml
+    limit: 20
+    hub:
+    content:
+    content_limit:
+    content_limit_delim: ' '

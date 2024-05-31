@@ -6,14 +6,14 @@ menu:
 
   友链:
     友人帐: /link/
-    朋友圈: /fcircle/ 
+    # 朋友圈: /fcircle/ 
     留言板: /comments/
 
   我的:
     音乐馆: /music/
-    追番页: /bangumis/ 
+    # 追番页: /bangumis/ 
     相册集: /album/ 
-    小空调: /air-conditioner/
+    # 小空调: /air-conditioner/
 
   关于:
     关于本人: /about/ 

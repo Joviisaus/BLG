@@ -6,14 +6,11 @@ menu:
 
   友链:
     友人帐: /link/ || anzhiyu-icon-link
-    朋友圈: /fcircle/ || anzhiyu-icon-artstation
     留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
     音乐馆: /music/ || anzhiyu-icon-music
-    追番页: /bangumis/ || anzhiyu-icon-bilibili
     相册集: /album/ || anzhiyu-icon-images
-    小空调: /air-conditioner/ || anzhiyu-icon-fan
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
@@ -31,12 +28,12 @@ nav:
         - name: 博客
           link: https://viisaus.tech/
           icon: /img/favicon.ico
-    - title: 项目
-      item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
-
+    # - title: 项目
+    #   item:
+    #     - name: 安知鱼图床
+    #       link: https://image.anheyu.com/
+    #       icon: https://image.anheyu.com/favicon.ico
+    #
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
 mourn:
@@ -67,7 +64,7 @@ copy:
 #   name: link || icon
 social:
   Github: https://github.com/joviisaus || anzhiyu-icon-github
-  BiliBili: https://space.bilibili.com/351469837 || anzhiyu-icon-bilibili
+  RSS: /atom.xml || fas fa-rss
 
 # 作者卡片 状态
 author_status:
@@ -200,8 +197,8 @@ mainTone:
 
 # wordcount (字数统计)
 # see https://blog.anheyu.com/posts/c27d.html#字数统计
-wordwount:
-  enable: false
+wordcount:
+  enable: true
   post_wordwount: true
   min2read: true
   total_wordcount: true
@@ -608,7 +605,7 @@ theme_color:
   text_selection: "#FAFF93"
   link_color: "var(--anzhiyu-fontcolor)"
   meta_color: "var(--anzhiyu-fontcolor)"
-  hr_color: "#EBFF93"
+  hr_color: "#FB9FA3"
   code_foreground: "#fff"
   code_background: "var(--anzhiyu-code-stress)"
   toc_color: "#FC9F52"
@@ -963,7 +960,7 @@ note:
 
 icons:
   ali_iconfont_js: # 阿里图标symbol 引用链接，主题会进行加载 symbol 引用
-  fontawesome: false #是否启用fontawesome6图标
+  fontawesome: true #是否启用fontawesome6图标
   fontawesome_animation_css: #fontawesome_animation 如果有就会加载，示例值：https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@1.0.17/lib/assets/font-awesome-animation.min.css
 
 # other
@@ -1037,25 +1034,25 @@ css_prefix: true
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 生活明朗
-  subTitle: 万物可爱。
-  siteText: anheyu.com
+  title: 不骄不躁
+  subTitle: 宁静致远
+  siteText: viisaus.tech
   category:
     - name: 随笔
       path: /categories/随笔/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
-      icon: anzhiyu-icon-dove
+      icon: fad fa-pen-fancy
     - name: 记录
       path: /categories/记录/
-      shadow: var(--anzhiyu-shadow-red)
+      shadow: (-anzhiyu-shadow-red)
       class: red
-      icon: anzhiyu-icon-fire
-    - name: 笔记
-      path: /categories/笔记/
+      icon: fad fa-quote-left
+    - name: 画廊
+      path: /categories/画廊/
       shadow: var(--anzhiyu-shadow-green)
       class: green
-      icon: anzhiyu-icon-book
+      icon: fad fa-camera-alt
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper:
     enable: true
@@ -1069,7 +1066,7 @@ home_top:
 
 # 朋友圈配置
 friends_vue:
-  enable: true
+  enable: false
   vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.1/friends/index.4f887d95.js
   apiurl: # 朋友圈后端地址
   top_tips: 使用 友链朋友圈 订阅友链最新文章
@@ -1081,7 +1078,7 @@ universe:
 
 # 页面卡片顶部气泡升起效果
 bubble:
-  enable: false
+  enable: true
 
 #  控制台打印信息
 console:
@@ -1167,14 +1164,14 @@ greetingBox:
 
 # 文章顶部ai摘要
 post_head_ai_description:
-  enable: false
+  enable: true
   gptName: AnZhiYu
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
   btnLink: https://afdian.net/item/886a79d4db6711eda42a52540025c377
   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
   basicWordCount: 1000 # 最低获取字符数, 最小1000, 最大1999
-  key: xxxx
+  key: b9bcf58c369af74fa7c4
   Referer: https://xx.xx/
 
 # 快捷键配置

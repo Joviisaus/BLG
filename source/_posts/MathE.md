@@ -20,7 +20,7 @@ aside:
 swiper_index: 1
 top_group_index: 1
 background: "#fff"
-
+ai: true
 title: '喝前摇一摇，考前背一背'
 description: '统统上岸！！！'
 date: 2023-8-24 08:00:00

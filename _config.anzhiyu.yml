@@ -200,9 +200,9 @@ mainTone:
 
 # wordcount (字数统计)
 # see https://blog.anheyu.com/posts/c27d.html#字数统计
-wordcount:
+wordwount:
   enable: false
-  post_wordcount: true
+  post_wordwount: true
   min2read: true
   total_wordcount: true
 
@@ -234,7 +234,7 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 长沙
+  location: 大连
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: false # hover时头像下沉
@@ -246,10 +246,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
+    - img: https://bu.dusays.com/2024/05/31/665954c40351f.png
       link:
       text: 微信
-    - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png
+    - img: https://bu.dusays.com/2024/05/31/665954c407cb9.png 
       link:
       text: 支付宝
 
@@ -601,17 +601,17 @@ site_verification:
 
 theme_color:
   enable: true
-  main: "#425AEF"
-  dark_main: "#f2b94b"
-  paginator: "#425AEF"
+  main: "#FC9F52"
+  dark_main: "#FCC488"
+  paginator: "#FD9681"
   #   button_hover: "#FF7242"
-  text_selection: "#2128bd"
+  text_selection: "#FAFF93"
   link_color: "var(--anzhiyu-fontcolor)"
   meta_color: "var(--anzhiyu-fontcolor)"
-  hr_color: "#4259ef23"
+  hr_color: "#EBFF93"
   code_foreground: "#fff"
   code_background: "var(--anzhiyu-code-stress)"
-  toc_color: "#425AEF"
+  toc_color: "#FC9F52"
   #   blockquote_padding_color: "#425AEF"
   #   blockquote_background_color: "#425AEF"
   scrollbar_color: "var(--anzhiyu-scrollbar)"
@@ -851,7 +851,7 @@ runtimeshow:
 
 # Console - Newest Comments
 newest_comments:
-  enable: false
+  enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage

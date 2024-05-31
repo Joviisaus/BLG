@@ -1172,7 +1172,7 @@ post_head_ai_description:
   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
   basicWordCount: 1000 # 最低获取字符数, 最小1000, 最大1999
   key: b9bcf58c369af74fa7c4
-  Referer: https://tianli0.top/
+  Referer: https://www.viisaus.tech
 
 # 快捷键配置
 shortcutKey:

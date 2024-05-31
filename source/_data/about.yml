@@ -57,14 +57,10 @@
       - desc: DUT,软件工程专业(硕士)
         color: "#357e00"
     img: https://bu.dusays.com/2024/05/30/6658808576da4.png
-  statistic:
-    link: /archives
-    text: 文章隧道
-    cover: https://bu.dusays.com/2024/05/30/665880f4dc2ac.png
   map:
     title: 我现在住在
     StrengthenTitle: 中国，辽宁，大连
-    background: https://bu.dusays.com/2024/05/30/66587a98bd74c.png
+    background: https://bu.dusays.com/2024/05/31/6659a0844b20a.png 
     backgroundDark: https://bu.dusays.com/2024/05/30/66587a98bd74c.png
   selfInfo:
     selfInfoTips1: 生于
@@ -76,8 +72,8 @@
   personalities:
     author_name: 逻辑学家
     personality_type: INTP
-    photo_url: https://bu.dusays.com/2023/07/05/64a4c63495ac5.jpg
-    personality_img: https://th.bing.com/th/id/OIP.cuZP0W-0JcWl7P1QM-WdDQHaGV?w=213&h=182&c=7&r=0&o=5&dpr=2&pid=1.7
+    photo_url: https://bu.dusays.com/2024/05/30/665880f4dc2ac.png
+    personality_img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV0W4Bh7NfbGaN5OxQSqL3OqgTDO8ugt4pew&s 
     name_url: https://www.16personalities.com/ch/类型描述
   maxim:
     maxim_tips: 座右铭
@@ -122,7 +118,10 @@
     music_title: 周杰伦、杨千嬅、陈奕迅
     music_bg: https://th.bing.com/th/id/OIP.vxs9JKWPLl2laux-By3PEwHaFj?w=253&h=190&c=7&r=0&o=5&dpr=2&pid=1.7
     music_link: /music
-  # reward_list:
+  reward_list:
+    - name: 令安
+      amount: 5.20
+      datatime: 2024-05-31
   #   - name: 海阔蓝
   #     amount: 8.8
   #     datatime: 2023-03-28

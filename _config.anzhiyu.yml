@@ -1166,13 +1166,13 @@ greetingBox:
 post_head_ai_description:
   enable: true
   gptName: AnZhiYu
-  mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
+  mode: tianli
   btnLink: https://afdian.net/item/886a79d4db6711eda42a52540025c377
   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
   basicWordCount: 1000 # 最低获取字符数, 最小1000, 最大1999
-  key: xxxx
-  Referer: https://xx.xx/
+  key: b9bcf58c369af74fa7c4
+  Referer: https://tianli0.top/
 
 # 快捷键配置
 shortcutKey:

@@ -1,7 +1,27 @@
 - title: 魔芋日记
   subtitle: 摸鱼琐事连连看
   tips: 從何時開始忌諱空山無人，從何時開始怕遙望星塵，原來神仙魚橫渡大海會斷魂，聽不到世人愛聽的福音
-  buttonText: 
+  buttonText: 我的
+  bottonlink: /about/
+  limit: 30
+  home_essay: true
+  top_background: https://bu.dusays.com/2024/05/31/66594281a5d80.png
+  essay_list:
+    - content: 本站正式上线
+      date: 2024/06/01
+      image:
+        - https://bu.dusays.com/2024/05/31/66594281a5d80.png
+      link: /
+      address: 大连
+      from: Viisaus
+    - content: 金木屋最佳玉子烧🤪
+      date: 2024/05/31
+      image:
+        - https://bu.dusays.com/2024/05/31/665944df8a2df.png
+        - https://bu.dusays.com/2024/05/31/6659457d27dab.png
+        - https://bu.dusays.com/2024/05/31/6659457d6ae3a.png
+      address: 大连
+      from: Viisaus
 # - title: 即刻短文
 #   subTitle: 咸鱼的日常生活。
 #   tips: 随时随地，分享生活

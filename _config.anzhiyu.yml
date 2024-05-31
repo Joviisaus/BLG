@@ -319,7 +319,7 @@ comments:
   # lazyload: The comment system will be load when comment element enters the browser's viewport.
   # If you set it to true, the comment count will be invalid
   lazyload: false
-  count: false # Display comment count in post's top_img
+  count: true # Display comment count in post's top_img
   card_post_count: false # Display comment count in Home Page
 
 # valine
@@ -349,10 +349,12 @@ valine:
 # waline - A simple comment system with backend support fork from Valine
 # https://waline.js.org/
 waline:
-  serverURL: https://comment-1399wo2br-viisaus-projects.vercel.app # Waline server address url
-  bg: #fff # waline background
-  pageview: false
-  meta: false # 归属地, 操作系统 前是否显示图标
+  serverURL:  # Waline server address url
+  # https://comment-blush.vercel.app/
+  bg:  # waline background
+  avatar: mm
+  pageview: true
+  meta: true # 归属地, 操作系统 前是否显示图标
   imageUploader: true # 是否启用图片上传功能，默认开启，限制为 128kb 的 base64 图片
   # 以下为可选配置，后续若有新增/修改配置参数可在此自行添加/修改
   option:
@@ -416,7 +418,7 @@ footer:
   custom_text:
   runtime:
     enable: false
-    launch_time: 04/01/2021 00:00:00 # 网站上线时间
+    launch_time: 06/01/2023 00:00:00 # 网站上线时间
     work_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-上班摸鱼中.svg
     work_description: 距离月入25k也就还差一个大佬带我~
     offduty_img: https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg
@@ -424,7 +426,7 @@ footer:
   # 徽标部分配置项 https://shields.io/
   # https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
   bdageitem:
-    enable: false
+    enable: true
     list:
       - link: https://hexo.io/ #徽标指向网站链接
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
@@ -435,9 +437,9 @@ footer:
       # - link: https://www.dogecloud.com/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
       #   message: 本站使用多吉云为静态资源提供CDN加速
-      # - link: https://github.com/
-      #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
-      #   message: 本站项目由Github托管
+      - link: https://github.com/
+        shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
+        message: 本站项目由Github托管
       # - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
       #   message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
@@ -482,22 +484,22 @@ footer:
       #       link: https://www.foreverblog.cn/
       #     - title: 开往
       #       link: https://github.com/travellings-link/travellings
-      # - title: 主题
-      #   links:
-      #     - title: 文档
-      #       link: /docs/
-      #     - title: 源码
-      #       link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-      #     - title: 更新日志
-      #       link: /update/
-      # - title: 导航
-      #   links:
-      #     - title: 即刻短文
-      #       link: /essay/
-      #     - title: 友链文章
-      #       link: /fcircle/
-      #     - title: 留言板
-      #       link: /comments/
+      - title: 主题
+        links:
+          - title: 文档
+            link: /docs/
+          - title: 源码
+            link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+          - title: 更新日志
+            link: /update/
+      - title: 导航
+        links:
+          - title: 即刻短文
+            link: /essay/
+          - title: 友链文章
+            link: /fcircle/
+          - title: 留言板
+            link: /comments/
       # - title: 协议
       #   links:
       #     - title: 隐私协议

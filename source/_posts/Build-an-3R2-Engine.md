@@ -6,9 +6,9 @@ updated:
 categories: 记录
 keywords: 三渲二, 光栅化成象, 渲染管线, Texture
 description: 通过修改光栅化成象的渲染材质实现三渲二效果
-top_img: '/image/rp/3R2.png'
+top_img: '/image/rp/3r2.png'
 comments: true
-cover: '/image/rp/3R2.png'
+cover: '/image/rp/3r2.png'
 toc:
 toc_number:
 toc_style_simple:

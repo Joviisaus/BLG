@@ -6,9 +6,9 @@ tags: [大连,金石滩,暑假]
 categories: 画廊
 keywords: 大连,苹果原相机
 description: 
-top_img: '/image/travel/v.JPG'
+top_img: '/image/Travel/v.JPG'
 comments:
-cover: '/image/travel/v.JPG'
+cover: '/image/Travel/v.JPG'
 toc:
 toc_number:
 toc_style_simple:

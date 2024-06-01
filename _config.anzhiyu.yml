@@ -9,7 +9,7 @@ menu:
     留言板: /comments/ || anzhiyu-icon-envelope
 
   我的:
-    音乐馆: /music/ || anzhiyu-icon-music
+    音乐馆: /music/?id=8477628408&server=netease || anzhiyu-icon-music
     相册集: /album/ || anzhiyu-icon-images
 
   关于:
@@ -63,7 +63,7 @@ copy:
     limit_count: 50
 
 # social settings (社交图标设置)
-# formal:
+# formalspeed
 #   name: link || icon
 social:
   Github: https://github.com/joviisaus || anzhiyu-icon-github
@@ -1119,7 +1119,7 @@ nav_music:
   id: 8152976493
   server: netease
   volume: 0.7 # 默认音量
-  all_playlist: https://y.qq.com/n/ryqq/playlist/8802438608
+  all_playlist: http://163cn.tv/rEHXdPn 
 
 # 评论匿名邮箱
 visitorMail:

@@ -258,7 +258,7 @@ $$
    $$
 2. 转换投影
    $$
-   \footnotesize \iint_{D_{xy}}[P(-\frac{\partial z}{\partial x})+Q(-\frac{\partial z}{\partial y})+R]dxdy
+    \iint_{D_{xy}}[P(-\frac{\partial z}{\partial x})+Q(-\frac{\partial z}{\partial y})+R]dxdy
    $$
 3. 高斯公式（建议最后再考虑）
    $$

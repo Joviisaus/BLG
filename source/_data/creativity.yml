@@ -1,0 +1,44 @@
+- class_name: 开启创造力
+  creativity_list:
+    - name: C++
+      color: "#fff"
+      icon: https://bu.dusays.com/2024/06/01/665aa71a918cd.jpeg
+    - name: OpenGl
+      color: "#fff"
+      icon: https://bu.dusays.com/2024/06/01/665aa59143b86.jpeg
+    - name: Cmake
+      color: "#FFF"
+      icon: https://bu.dusays.com/2024/06/01/665aa59140102.jpeg
+    - name: Qt
+      color: "#fff"
+      icon: https://bu.dusays.com/2024/06/01/665aa9f5e481f.jpeg
+    - name: Git
+      color: "#fff"
+      icon: https://bu.dusays.com/2024/06/01/665aa884873e8.jpeg
+    - name: Vim
+      color: "#fff"
+      icon: https://bu.dusays.com/2024/06/01/665aa5912df68.jpeg
+    - name: NeoVim
+      color: "#fff"
+      icon: https://bu.dusays.com/2024/06/01/665aa5913166a.jpeg
+    - name: MeshLab
+      color: "#fff"
+      icon: https://bu.dusays.com/2024/06/01/665aa59135b63.jpeg
+    - name: Python
+      color: "#fff"
+      icon: https://bu.dusays.com/2024/06/01/665aa8847115f.jpeg
+    - name: Pytorch
+      color: "#fff"
+      icon: https://bu.dusays.com/2024/06/01/665aa5914b172.jpeg
+    - name: Html
+      color: "#fff"
+      icon: https://bu.dusays.com/2024/06/01/665aa91c90d6d.jpeg
+    - name: Css
+      color: "#fff"
+      icon: https://bu.dusays.com/2024/06/01/665aa91c8f7c5.jpeg
+    - name: JavaScript
+      color: "#fff"
+      icon: https://bu.dusays.com/2024/06/01/665aa91ca10c6.jpeg
+    - name: Astro
+      color: "#fff"
+      icon: https://bu.dusays.com/2024/06/01/665aa91c9d52e.png

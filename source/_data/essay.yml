@@ -30,7 +30,8 @@
       date: 2024/05/30
       address: 大连
       from: Viisaus
-      image: /image/shansong/IMG_5371.png
+      image:
+        - /image/shansong/IMG_5371.png
       link: /2024/05/31/Shandong/
     - content: 吃面遇到一只异瞳小猫
       date: 2024/05/31
@@ -38,6 +39,10 @@
         - https://bu.dusays.com/2024/05/31/6659b72b7046a.png
         - https://bu.dusays.com/2024/05/31/6659b72d03b9d.png
         - https://bu.dusays.com/2024/05/31/6659b72d0bbdb.png
+      address: 大连
+      from: Viisaus
+    - content: 耐耐滴我电脑上怎么这么多 TCL-TK ，python 自带 Xcode 自带 我自己还装了一个，构建项目都不知道 cmake 找到的是哪个 😭
+      date: 2024/05/30
       address: 大连
       from: Viisaus
 

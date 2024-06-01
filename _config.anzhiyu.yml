@@ -28,6 +28,9 @@ nav:
         - name: 博客
           link: https://viisaus.tech/
           icon: /img/favicon.ico
+        - name: 旧版
+          link: https://joviisaus.github.io/
+          icon: /img/favicon.ico
     # - title: 项目
     #   item:
     #     - name: 安知鱼图床

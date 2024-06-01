@@ -24,7 +24,6 @@ ai: true
 title: '喝前摇一摇，考前背一背'
 description: '统统上岸！！！'
 date: 2023-8-24 08:00:00
-
 top_img: '/image/Math.jpeg'
 cover: '/image/Math.jpeg'
 ---
@@ -43,16 +42,16 @@ cover: '/image/Math.jpeg'
 
 - 罗尔定理
   
-  $f(x)$在$[a,b]$上连续，若 $f(a) = f(b)$ ,则$\exist \xi \in(a,b),f'(\xi) = 0$
+  $f(x)$在$[a,b]$上连续，若 $f(a) = f(b)$ ,则存在 $ \xi \in(a,b),f'(\xi) = 0$
   
 - 拉格朗日中值定理
   
-  $f(x)$在$[a,b]$上连续，则$\exist \xi \in(a,b)$,有$\frac{f(b)-f(a)}{b-a} = f'(\xi)$
+  $f(x)$在$[a,b]$上连续，则存在 $ \xi \in(a,b)$,有$\frac{f(b)-f(a)}{b-a} = f'(\xi)$
   
   >  出现$f$ 与$f'$的关系时多考虑，只有一个$f$时找$f(x) = 0$
 - 柯西中值定理
   
-  $f(x)$,$g(x)$在$[a,b]$上连续，则$\exist \xi \in(a,b)$,有$\frac{f(b)-f(a)}{g(b)-g(a)} = \frac{f'(\xi)}{g'(\xi)}$
+  $f(x)$,$g(x)$在$[a,b]$上连续，则存在$ \xi \in(a,b)$,有$\frac{f(b)-f(a)}{g(b)-g(a)} = \frac{f'(\xi)}{g'(\xi)}$
   
   > 一般$f$和$g$一个具体一个抽象
 - 泰勒公式

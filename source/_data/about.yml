@@ -117,7 +117,7 @@
     music_tips: 音乐偏好
     music_title: 周杰伦、杨千嬅、陈奕迅
     music_bg: https://th.bing.com/th/id/OIP.vxs9JKWPLl2laux-By3PEwHaFj?w=253&h=190&c=7&r=0&o=5&dpr=2&pid=1.7
-    music_link: /music
+    music_link: /music/?id=8302269091&server=netease
   reward_list:
     - name: 令安
       amount: 5.20

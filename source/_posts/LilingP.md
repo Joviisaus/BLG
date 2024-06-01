@@ -12,7 +12,7 @@ description: '本笔记用于记录李林108题思路，可用于提高做题效
 background: '#fff'
 swiper_index: 1
 top_group_index: 1
-MathJax: true
+mathJax: true
 katex: true
 ---
 ## 写在前面：

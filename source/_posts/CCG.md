@@ -12,7 +12,7 @@ description: '2023 计算共形几何'
 background: '#fff'
 swiper_index: 1
 top_group_index: 1
-mathJax: true
+mathjax: true
 katex: true
 ---
 # Foreword

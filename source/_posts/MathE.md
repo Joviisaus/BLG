@@ -13,7 +13,7 @@ copyright_author_href:
 copyright_url:
 copyright_info:
 mathjax: true
-katex:
+katex: true
 aplayer:
 highlight_shrink:
 aside:

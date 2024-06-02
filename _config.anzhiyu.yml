@@ -358,6 +358,16 @@ waline:
   imageUploader: true # 是否启用图片上传功能，默认开启，限制为 128kb 的 base64 图片
   # 以下为可选配置，后续若有新增/修改配置参数可在此自行添加/修改
   option:
+  STMP_SERVICE: Hotmail
+  STMP_USER: ouyangj0815@outlook.com
+  STMP_PASS: Oyj789456123！
+  SMTP_SECURE: true
+  SITE_NAME: viisaus
+  SITE_URL: https://viisaus.tech/
+  AUTHOR_EMAIL: ouyangj0815@outlook.com
+  SENDER_NAME: viisaus
+  SENDER_EMAIL: ouyangj0815@outlook.com
+
 
 # Twikoo
 # https://github.com/imaegoo/twikoo

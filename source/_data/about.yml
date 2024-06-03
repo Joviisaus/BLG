@@ -113,11 +113,13 @@
     like_title: 喜欢摆烂（乐
     like_bg: https://tse3-mm.cn.bing.net/th/id/OIP-C.qd9W_-Xr6-cIJIvWezjqLgHaE-?w=298&h=199&c=7&r=0&o=5&dpr=2&pid=1.7
     like_bottom: 咖啡、摄影、西踢沃壳
+
   music:
     music_tips: 音乐偏好
     music_title: 周杰伦、杨千嬅、陈奕迅
     music_bg: https://th.bing.com/th/id/OIP.vxs9JKWPLl2laux-By3PEwHaFj?w=253&h=190&c=7&r=0&o=5&dpr=2&pid=1.7
     music_link: /music/?id=8302269091&server=netease
+
   reward_list:
     - name: 令安
       amount: 5.20

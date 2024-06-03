@@ -136,7 +136,7 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: fa-duotone fa-brain
+favicon: /image/ICO.svg
 
 # Avatar (头像)
 avatar:

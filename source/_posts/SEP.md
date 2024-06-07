@@ -5,6 +5,8 @@ tags: ['软件工程','知识点','归纳']
 categories: 笔记
 keywords: 软件工程
 comments: true
+mathjax: true
+katex: true
 top_img: '/image/SE.png'
 cover: '/image/SE.png'
 ai: true
@@ -804,7 +806,7 @@ UML 使用一种标准的对象约束语言(Object Constraint Language, OCL)来�
 
 > eg. 要求学号长度至少为五位数字，并且构成的学号要大于或等于 10000，若使用 OCL 进行约束，则可以写成如下形式:
 
-``` 
+``` java
 context Student inv regStudentId:
     self.stuId >= 10000
 ```
@@ -813,7 +815,7 @@ context Student inv regStudentId:
 
 > eg. 未在休学期的学生必须注册一门课程
 
-```
+``` java
 context Student::selectedLectures(): Integer 
     pre stustatus: self.freesemester = false 
     post selectedLectures: result > 0
@@ -823,7 +825,7 @@ context Student::selectedLectures(): Integer
 
 >eg. 当该学生选择了一门之前没有学过的课程时，该学生选课总数就加一
 
-```
+``` java
 context Student::registerLecture(v: Lecture)
     pre: not isSelected(v)
     post: self.selectedLectures()@pre = self.selectedLectures() – 1

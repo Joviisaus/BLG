@@ -5,9 +5,9 @@ tags: [技术,科研,记录]
 description: '毕业设计内容概要'
 categories: 记录
 keywords: 毕业设计, 概要, Morse , 配准 , 控制抵消
-top_img: '/image/GradReg/summary.png'
+top_img: '/image/GradReg/8Lap3.png'
 comments: true
-cover: '/image/GradReg/summary.png'
+cover: '/image/GradReg/8Lap3.png'
 mathjax: true
 katex: true
 ai: true

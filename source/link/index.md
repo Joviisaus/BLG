@@ -10,7 +10,7 @@ type: "link"
 
 ```yml
 - name: "viisaus"
-  desc: "少欲则心静，心静则事简♨️♨️♨️"  
+  desc: "静水深流，笃志前行♨️♨️♨️"  
   link: "https://viisaus.tech"
   avatar: "https://viisaus.tech/image/header.png"
   preview: "https://bu.dusays.com/2024/06/02/665c0fdc862e0.png"

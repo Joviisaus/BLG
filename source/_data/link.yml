@@ -22,20 +22,13 @@
       descr: 生活明朗，万物可爱
       siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
       color: vip
-      tag: 技术
+      tag: 综合
     - name: skyboom
       link: https://lhystutest.top
       avatar: https://avatars.githubusercontent.com/u/97374782?v=4
       descr: 春风若有怜花意，可否许我再少年
       siteshot: https://avatars.githubusercontent.com/u/97374782?v=4
       color: speed
-      tag: 技术
-    - name: 冬天的小窝
-      link: https://www.iamdt.cn/
-      avatar: https://img.iamdt.cn/2023/09/26/6512ccfe73f56.png
-      descr: 人生若只如初见，何事秋风悲画扇。
-      siteshot: https://bu.dusays.com/2024/06/01/665aeb1061fc8.png
-      color: vip
       tag: 技术
 
 - class_name: 小伙伴

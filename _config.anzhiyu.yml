@@ -1096,8 +1096,8 @@ LA:
 # 标签卖萌
 diytitle:
   enable: true
-  leaveTitle: w(ﾟДﾟ)w 不要走！再看看嘛！
-  backTitle: ♪(^∇^*)欢迎肥来！
+  leaveTitle: (๑•̀ㅂ•́)و✧ 快回来呀！
+  backTitle: (๑•̀ㅂ•́)و✧ 你回来啦🎉！
 
 # 留言弹幕配置
 comment_barrage_config:
@@ -1170,7 +1170,7 @@ greetingBox:
 # 文章顶部ai摘要
 post_head_ai_description:
   enable: true
-  gptName: AnZhiYu
+  gptName: Viisaus
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
   mode: tianli
   btnLink: https://afdian.net/item/886a79d4db6711eda42a52540025c377

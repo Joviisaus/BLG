@@ -29,7 +29,7 @@ nav:
           link: https://viisaus.tech/
           icon: /image/header.png
         - name: 旧版
-          link: https://joviisaus.github.io/
+          link: https://joviisaus-github-io.vercel.app
           icon: /image/danta.svg
     - title: 组织
       item:

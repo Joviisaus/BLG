@@ -31,6 +31,12 @@ nav:
         - name: 旧版
           link: https://joviisaus.github.io/
           icon: /img/favicon.ico
+    - title: 组织
+      item:
+        - name: 开往
+          link: https://www.travellings.cn/go.html
+          icon: /image/train.svg
+
     # - title: 项目
     #   item:
     #     - name: 安知鱼图床

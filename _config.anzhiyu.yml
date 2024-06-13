@@ -496,8 +496,8 @@ footer:
         links:
           - title: 即刻短文
             link: /essay/
-          - title: 友链文章
-            link: /fcircle/
+          - title: 友链
+            link: /link/
           - title: 留言板
             link: /comments/
       # - title: 协议

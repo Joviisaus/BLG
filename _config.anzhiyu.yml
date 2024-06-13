@@ -27,22 +27,15 @@ nav:
       item:
         - name: 博客
           link: https://viisaus.tech/
-          icon: /img/favicon.ico
+          icon: /image/header.png
         - name: 旧版
           link: https://joviisaus.github.io/
-          icon: /img/favicon.ico
+          icon: /image/danta.svg
     - title: 组织
       item:
         - name: 开往
           link: https://www.travellings.cn/go.html
           icon: /image/train.svg
-
-    # - title: 项目
-    #   item:
-    #     - name: 安知鱼图床
-    #       link: https://image.anheyu.com/
-    #       icon: https://image.anheyu.com/favicon.ico
-    #
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
 mourn:

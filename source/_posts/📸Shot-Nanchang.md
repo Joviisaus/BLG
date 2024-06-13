@@ -49,3 +49,4 @@ Nanchang
 ![应该是某个酒店～](/image/Nanchang/DSCF5557.jpeg)
 <!-- ![title](/image/Nanchang/IMG.jpeg) -->
 
+<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>

@@ -76,3 +76,5 @@ Shot over Dalian
 ![IMG_2880](/image/Travel/IMG_2881.jpeg)
 
 ![IMG_2880](/image/Travel/IMG_2880.jpeg)
+
+<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>

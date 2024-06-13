@@ -88,3 +88,5 @@ Shot By FujiFilm XT5
 ![](/image/Fuji102/DSCF9087.JPG)
 
 ![](/image/Fuji102/DSCF9096.JPG)
+
+<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>

@@ -96,3 +96,6 @@ Shot -- Dalian
 ![](/image/2023_Oct/IMG_6616.jpeg)
 
 ![](/image/2023_Oct/IMG_6657.jpeg)
+
+<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+

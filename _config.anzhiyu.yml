@@ -799,8 +799,8 @@ aside:
 
   card_announcement:
     enable: true
-    content: 本站已开启评论功能，欢迎留言交流！
-  card_weixin:
+    content: 浏览特定博文有概率出现看板娘哦😋～ 
+    card_weixin:
     enable: false
     face: https://bu.dusays.com/2023/01/13/63c02edf44033.png
     # backFace: https://bu.dusays.com/2023/05/13/645fa415e8694.png

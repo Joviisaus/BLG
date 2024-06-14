@@ -50,6 +50,11 @@
       descr: 生活索然无味，马原拯救人类
       avatar: https://image.pupua.top/avator.jpg
       recommend: true
+    - name: KEVIN'S BLOG
+      descr: Kevin的博客
+      link: https://blog.kevinchu.top
+      avatar: https://static.kevinchu.top/blog/assets/img/avatar_03.jpg
+      recommend: true
     - name: 冬天的小窝
       link: https://www.iamdt.cn/
       avatar: https://img.iamdt.cn/2023/09/26/6512ccfe73f56.png

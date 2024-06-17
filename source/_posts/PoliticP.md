@@ -10,8 +10,8 @@ cover: '/image/politic.png'
 ai: true
 description: '本文用于记录考研政治易错点集萃，希望能帮助大家更好地备考考研政治，祝大家考研顺利！'
 background: '#fff'
-swiper_index: 1
-top_group_index: 1
+swiper_index: 6
+top_group_index: 6
 ---
 
 <div STYLE="page-break-after: always;"></div>

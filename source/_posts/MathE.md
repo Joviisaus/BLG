@@ -17,8 +17,8 @@ katex: true
 aplayer:
 highlight_shrink:
 aside:
-swiper_index: 1
-top_group_index: 1
+swiper_index: 6
+top_group_index: 6
 background: "#fff"
 ai: true
 title: '喝前摇一摇，考前背一背'

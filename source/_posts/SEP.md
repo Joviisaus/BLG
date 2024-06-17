@@ -12,8 +12,8 @@ cover: '/image/SE.png'
 ai: true
 description: '本文用于记录软件工程知识点，包括软件工程的定义、软件工程的特点、软件工程的发展历程、软件工程的基本原理、软件工程的基本活动、软件工程的基本方法、软件工程的基本技术、软件工程的基本工具、软件工程的应用领域、软件工程的发展趋势等。'
 background: '#fff'
-swiper_index: 1
-top_group_index: 1
+swiper_index: 6
+top_group_index: 6
 ---
 
 ## 软件工程概述

@@ -5,9 +5,9 @@ tags: [大连,毕业照]
 categories: 画廊
 keywords: 大连,毕业照, Fuji
 description: 毕业喽
-top_img: '/image/GradPhoto/13A0CB77-F145-4465-B72F-8A1A0AD5E4F8.png'
+top_img: '/image/GradPhoto/bg.png'
 comments: true
-cover: '/image/GradPhoto/13A0CB77-F145-4465-B72F-8A1A0AD5E4F8.png'
+cover: '/image/GradPhoto/bg.png'
 swiper_index: 1
 top_group_index: 1
 background: "#fff"

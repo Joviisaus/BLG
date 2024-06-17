@@ -23,8 +23,8 @@ aplayer:
 highlight_shrink:
 aside:
 ai: true
-swiper_index: 1
-top_group_index: 1
+swiper_index: 4
+top_group_index: 4
 background: "#fff"
 ---
 

@@ -10,8 +10,8 @@ cover: '/image/Liling.jpeg'
 ai: true
 description: '本笔记用于记录李林108题思路，可用于提高做题效率，但本笔记不涉及单词和长难句，请在确保单词和长难句分析技巧掌握的情况下精做真题，将各位老师的做题技巧融会贯通，本笔记仅做参考使用。'
 background: '#fff'
-swiper_index: 1
-top_group_index: 1
+swiper_index: 5
+top_group_index: 5
 mathjax: true
 katex: true
 ---

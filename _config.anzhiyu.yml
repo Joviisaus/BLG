@@ -520,6 +520,8 @@ footer:
       #   text: 图床
       # - link: https://beian.miit.gov.cn/
       #   text: 湘ICP备-xxxxxxx号
+      - link: https://icp.gov.moe/?keyword=20240815
+        text: 萌ICP备20240815号
     subTitle:
       enable: true
       # Typewriter Effect (打字效果)

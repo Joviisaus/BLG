@@ -1,7 +1,7 @@
 ---
 title: 计算共形几何笔记
 date: 2024-03-01 08:00:00
-tags: ['数学','计算几何','笔记']
+tags: [数学,计算几何,笔记,图形学]
 categories: 笔记
 keywords: 数学, 计算几何,更新中
 comments: true

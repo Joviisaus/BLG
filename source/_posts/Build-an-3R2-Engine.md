@@ -1,6 +1,6 @@
 ---
 title: Build an 3R2 Engine
-tags: [三渲二, 光栅化成象, 渲染管线]
+tags: [三渲二, 计算几何, 记录,图形学,三维模型]
 date: 2023-11-28 08:00:00
 updated:
 categories: 记录

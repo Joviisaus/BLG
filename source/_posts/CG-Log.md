@@ -2,7 +2,7 @@
 title: CG Log
 date: 2023-11-04 08:00:00
 updated:
-tags: [图形学,总结,指南,规划]
+tags: [图形学,三维模型,总结,指南,规划]
 categories: 随笔
 keywords: 工业软件,图形学,入门经验
 description: 记录到目前为止的图形学踩坑感想，可能可以当作一个入坑指南

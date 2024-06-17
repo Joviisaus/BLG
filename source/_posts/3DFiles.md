@@ -9,6 +9,7 @@ top_img: '/image/3df/title.png'
 comments: true
 cover: '/image/3df/title.png'
 aside: true
+ai: true
 swiper_index: 5
 top_group_index: 5
 background: "#fff"

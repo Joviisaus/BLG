@@ -22,6 +22,7 @@ katex:
 aplayer:
 highlight_shrink:
 aside: true
+ai: true
 swiper_index: 1
 top_group_index: 1
 background: "#fff"

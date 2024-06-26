@@ -64,6 +64,8 @@ cv::imwrite(filename, image);
 
 ### Texture 模型渲染结果
 
+![Texture](/image/rp/Texture.png)
+
 ## 三渲二具体实现
 
 在基于 Texture 的纹理贴图实现二维风格化图片输出
@@ -158,6 +160,8 @@ Eigen::Vector3f Three_R_Two(const fragment_shader_payload& payload)
 }
 ```
 
+![3R2](/image/rp/3R2.png)
+
 ### 描边
 
 二维图像在色彩扁平的基础上，往往还需要轮廓描绘来实现物体的色块区分。幸运的是，光栅化成象中有利用深度缓存属性来实现物体遮挡的效果，在描边过程里可以复用这一属性。
@@ -178,3 +182,7 @@ Eigen::Vector3f Three_R_Two(const fragment_shader_payload& payload)
         }
     }
 ```
+![40](/image/rp/40.png)
+![90](/image/rp/90.png)
+![180](/image/rp/180.png)
+![135](/image/rp/135.png)

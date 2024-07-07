@@ -606,7 +606,7 @@ theme_color:
   dark_main: "#FCC488"
   paginator: "#FD9681"
   #   button_hover: "#FF7242"
-  text_selection: "#FAFF93"
+  text_selection: "#9B4A63"
   link_color: "var(--anzhiyu-fontcolor)"
   meta_color: "var(--anzhiyu-fontcolor)"
   hr_color: "#FB9FA3"

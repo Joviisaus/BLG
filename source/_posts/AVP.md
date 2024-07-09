@@ -1,13 +1,12 @@
 ---
-title: AVP
+title: Apple Vision Pro 体验
 date: 2024-07-09 12:42:42
-title: 黑柔滤镜体验
 tags: [锐评,随笔]
 categories: 随笔
 keywords: Apple Vision Pro,评价体验
 description: 对 Apple Vision Pro 的一点锐评
 top_img: '/image/AVP/title.png'
-comments:
+comments: true
 cover: '/image/AVP/title.png'
 toc:
 toc_number:

@@ -23,13 +23,6 @@ top_group_index: 3
 
 ![DSCF4967](/image/2024_GD/DSCF4954.png)
 
-
-
-
-
-# 📍澳门🎰
-
-
 ![DSCF4967](/image/2024_GD/DSCF4958.png)
 
 ![DSCF4967](/image/2024_GD/DSCF4963.png)
@@ -37,6 +30,9 @@ top_group_index: 3
 ![DSCF4967](/image/2024_GD/DSCF5053.png)
 
 ![DSCF4967](/image/2024_GD/DSCF5054.png)
+
+
+# 📍澳门🎰
 
 ![DSCF4967](/image/2024_GD/DSCF5083.png)
 

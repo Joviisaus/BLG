@@ -1,5 +1,5 @@
 ---
-title: 📸Shot in Guangzhou & Macao
+title: 📸Shot in Guangzhou & Macau
 date: 2024-08-20 13:38:12
 tags: [广州,澳门,暑假]
 categories: 画廊

@@ -1,13 +1,13 @@
 ---
 title: 论文阅读:Stochastic Computation of Barycentric Coordinates
 date: 2024-09-18 13:02:39
-tags: [论文阅读,计算机图形学]
+tags: [论文阅读, 计算机图形学]
 categories: 笔记
 keywords: 论文阅读,动态几何,ToG
 description: 本文是对论文《Stochastic Computation of Barycentric Coordinates》的阅读笔记，相关工作发表在 ACM Transactions on Graphics 2024 ,来自皮克斯工作室。
-top_img: '/image/SCBC/transformation.png'
+top_img: "/image/SCBC/transformation.png"
 comments: true
-cover: '/image/SCBC/transformation.png'
+cover: "/image/SCBC/transformation.png"
 swiper_index: 6
 top_group_index: 6
 mathjax: true
@@ -82,6 +82,7 @@ $$
 ### 目标（输入输出）
 
 #### 输入
+
 - Cage (可以是凸的复形)
 - 位于 Cage 内部的任意一点坐标（或者不超越 Cage 的形状集合）
 
@@ -91,11 +92,9 @@ $$
 
 ### Compute Coordinates (以二维为例)
 
-
 作为一个比较通用也没有那么困难的算法，网上已经有很多关于 MVC 的介绍，证明思路也多种多样，本篇也是对[其中一篇](https://blog.csdn.net/u011426016/article/details/128070149)的搬运。
 
 MVC 同样是计算重心坐标，针对凸多面体点分布不均匀的状况综合计算，通过计算每个顶点到目标点的角度来计算其重心坐标。
-
 
 - 多边形的顶点坐标：$P_1,P_2,P_3,...,P_n$
 - 多边形的顶点的指标值：$a_1,a_2,a_3,...,a_n$
@@ -149,7 +148,7 @@ $k_i$ 单位化后即可获得以 $v$ 为重心时各点的权重 $w_i$。
 
 因此可以获得通用的插值公式对应的权重
 
-$$ 
+$$
 w_i = \tan(\frac{\alpha_i}{2}) \cdot \frac{1}{||v P_{i+1}||} + \tan(\frac{\alpha_{i-1}}{2}) \cdot \frac{1}{||v P_i||}
 $$
 
@@ -157,8 +156,7 @@ $$
 
 MVC 是一种比较通用的插值算法，但是其计算量较大，而且对于非凸的 Cage 也无法很好的计算，因此有了 [Harmonic Coordinates](https://en.wikipedia.org/wiki/Harmonic_coordinates) 的方法。
 
-
-根据笔者的理解，Harmonic Coordinates （HC）是一种基于物理规律的插值算法，其基本思想是通过模拟物体的弹性形变来计算其重心坐标，相比起 MVC 而言 HC 主要在于添加了两条新的限制，一是在控制点无负值的情况下内部同样无负值，二是插值函数在 Cage 内无极值，正是因为后者无极值的限制来自于 Harmonic 函数的特性，因此得名 Harmonic Coordinates。
+根据笔者的理解，Harmonic Coordinates （HC）其基本思想是通过模拟物体的弹性形变来计算其重心坐标，相比起 MVC 而言 HC 主要在于添加了两条新的限制，一是在控制点无负值的情况下内部同样无负值，二是插值函数在 Cage 内无极值，正是因为后者无极值的限制来自于 Harmonic 函数的特性，因此得名 Harmonic Coordinates。
 
 ![HC](/image/SCBC/HC.png)
 
@@ -166,7 +164,7 @@ MVC 是一种比较通用的插值算法，但是其计算量较大，而且对�
 
 调和坐标的计算方法与 MVC 类似，但是在计算均值向量时添加了一个限制条件，即均值向量的和为 0，这样可以保证在 Cage 内部的任意一点的重心坐标都是正值，若因为该条件无法保证最后的线性方程组有解，则可以通过对 Cage 的划分来保证其有解，对不同的 Cage 分别处理后为避免翻转或者自相交，会引入 Maya 的有关模块来平滑化保证其不会出现翻转。
 
-## Reproducing Kernel Particle Methods(PKPM) 
+## Reproducing Kernel Particle Methods(PKPM)
 
 PKPM 是一种基于粒子的插值算法，个人感觉和最小二乘法差不多，其本质也是为消除内部极值点，其基本思想是定义一个 Reproducing Kernel Function 来表示 Cage 内部一点到 Cage 上各点的映射关系，是距离公式的优化，可以使得 Cage 的形状不会影响到内部的形变，但这样会导致 Harmonic Coordinates 的相关属性丢失而丧失调和性，因此使用 RKPM 来使得该映射重获调和性。
 
@@ -178,9 +176,9 @@ PKPM 是一种基于粒子的插值算法，个人感觉和最小二乘法差不
 
 $$
 u_v(x) = \arg \min_{u} \int_C k(x,y) ||u^t(y) - \phi(y)||^2 dy
-$$ 
+$$
 
-其中 $C$ 为 Cage 
+其中 $C$ 为 Cage
 
 3. 离散化计算积分
 
@@ -212,6 +210,7 @@ $$
 1. 对每个控制点添加一个标量 $g_v$ ，个人感觉是为摆脱 $\phi$ 和为 1 的限制。
 
 由此可以获得 Cage 上连续空间里的任意一点 $y$ 的标量值
+
 $$
 g(y) = \sum_v \phi_v(y) g_v
 $$
@@ -219,7 +218,7 @@ $$
 2. 核函数 $K(x,y)$ 用于表示 $x$ 到 $y$ 的距离的映射，使得控制点的插值向 Cage 内部生长
 
 $$
-f(x) = \int_C K(x,y) g(y) dy 
+f(x) = \int_C K(x,y) g(y) dy
 $$
 
 3. 将控制点的权重 $g_v$ 线性分离出来，其系数整理为 $\alpha_v(x)$
@@ -251,9 +250,9 @@ $$
 $$
 
 5. 求解
-$$
-u_v(x) = M^{-1} m_v(x)
-$$
+   $$
+   u_v(x) = M^{-1} m_v(x)
+   $$
 
 $$
 M = \sum_{k} w_k y_k y_k^t

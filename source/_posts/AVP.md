@@ -1,17 +1,17 @@
 ---
 title: Apple Vision Pro 体验
 date: 2024-07-09 12:42:42
-tags: [锐评,随笔]
+tags: [锐评, 随笔]
 categories: 随笔
 keywords: Apple Vision Pro,评价体验
 description: 对 Apple Vision Pro 的一点锐评
-top_img: '/image/AVP/title.png'
+top_img: "/image/AVP/title.png"
 comments: true
-cover: '/image/AVP/title.png'
+cover: "/image/AVP/title.png"
 toc:
 toc_number:
 toc_style_simple:
-copyright: 
+copyright:
 copyright_author:
 copyright_author_href:
 copyright_url:
@@ -23,7 +23,7 @@ highlight_shrink:
 aside:
 swiper_index: 4
 top_group_index: 4
-ai: true 
+ai: true
 background: "#fff"
 ---
 

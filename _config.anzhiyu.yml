@@ -74,14 +74,14 @@ author_status:
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@latest/Sticker/我看好你.png"
   skills:
-     - 📖 研1入学摆烂中
-     - 🏋️ 爱健身的小飞舞
-     - 🌸 会点日语浓度不高
-     - ☕️ 咖灰重度依赖人士
-     - 🛩️ 在大连读书的长沙人
-     - 🔨 爱折腾的机灵鬼
-     - 📸 会拍一点小照片
-     - 🎮 平时玩点小单机
+    - 📖 研1入学摆烂中
+    - 🏋️ 爱健身的小飞舞
+    - 🌸 会点日语浓度不高
+    - ☕️ 咖灰重度依赖人士
+    - 🛩️ 在大连读书的长沙人
+    - 🔨 爱折腾的机灵鬼
+    - 📸 会拍一点小照片
+    - 🎮 平时玩点小单机
 
 # search (搜索)
 # see https://blog.anheyu.com/posts/c27d.html#搜索系统
@@ -248,7 +248,7 @@ reward:
     - img: https://bu.dusays.com/2024/05/31/665954c40351f.png
       link:
       text: 微信
-    - img: https://bu.dusays.com/2024/05/31/665954c407cb9.png 
+    - img: https://bu.dusays.com/2024/05/31/665954c407cb9.png
       link:
       text: 支付宝
 
@@ -350,7 +350,7 @@ valine:
 waline:
   serverURL: https://comment-blush.vercel.app # Waline server address url
   # https://comment-blush.vercel.app/
-  bg:  # waline background
+  bg: # waline background
   avatar: mm
   pageview: true
   meta: true # 归属地, 操作系统 前是否显示图标
@@ -446,25 +446,25 @@ footer:
     enable: true
     centerImg:
     left:
-       - title: email
-         link: mailto:osamu0815@163.com
-         icon: anzhiyu-icon-envelope
+      - title: email
+        link: mailto:osamu0815@163.com
+        icon: anzhiyu-icon-envelope
       # - title: 微博
       #   link: https://weibo.com/u/6378063631
       #   icon: anzhiyu-icon-weibo
       # - title: facebook
       #   link: https://www.facebook.com/profile.php?id=100092208016287&sk=about
       #   icon: anzhiyu-icon-facebook1
-       - title: RSS
-         link: atom.xml
-         icon: anzhiyu-icon-rss
+      - title: RSS
+        link: atom.xml
+        icon: anzhiyu-icon-rss
     right:
-       - title: Github
-         link: https://github.com/joviisaus
-         icon: anzhiyu-icon-github
-       - title: Bilibili
-         link: https://space.bilibili.com/351469837
-         icon: anzhiyu-icon-bilibili
+      - title: Github
+        link: https://github.com/joviisaus
+        icon: anzhiyu-icon-github
+      - title: Bilibili
+        link: https://space.bilibili.com/351469837
+        icon: anzhiyu-icon-bilibili
       # - title: 抖音
       #   link: https://v.douyin.com/DwCpMEy/
       #   icon: anzhiyu-icon-tiktok
@@ -778,7 +778,7 @@ preloader:
   # else all
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
-  pace_css_url: 
+  pace_css_url:
   avatar: /image/header.jpg # 自定加载动画义头像
 
 # aside (侧边栏)
@@ -1121,8 +1121,6 @@ nav_music:
   server: netease
   volume: 0.7 # 默认音量
   all_playlist: https://music.163.com/#/playlist/10163367198
-
-
 
 # 评论匿名邮箱
 visitorMail:

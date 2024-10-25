@@ -20,7 +20,7 @@ top_group_index: 6
 
 本身在命令行使用 **Clang** 编译是没有太大的问题的，可能真就只是缺了一个 lib 的问题，后来实在是排查完没有缺的 lib 才决定使用一个大型 IDE 来查看详细报告。
 
-![MinGw_CMAKE](/image/mh/MinGw_CMAKE.png)
+![MinGw_CMAKE](/image/mh/MinGW_CMAKE.png)
 
 此时的报错如下,如果稍微熟悉一点 **OpenGL** 的话应该知道是其中一个 lib 库依赖于系统内部自带的 **OpenGL32.lib** 库,但这不是重点。
 
@@ -113,7 +113,7 @@ make: *** [Makefile:90: all] Error 2
 
 更换开发环境为 **visual studio** 后，出现了一个很奇怪的报错，指的是某个函数在不该定义的地方被定义。
 
-![ERROR](/image/mh/Error.png)
+![ERROR](/image/mh/ERROR.png)
 
 # 新问题的排查
 

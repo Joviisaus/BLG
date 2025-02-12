@@ -1,0 +1,39 @@
+{
+  "friends": [
+    [
+      "Hexo",
+      "https://hexo.io/zh-tw/",
+      "https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg"
+    ],
+    [
+      "anzhiyu主题",
+      "https://blog.anheyu.com/",
+      "https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg"
+    ],
+    [
+      "安知鱼",
+      "https://blog.anheyu.com/",
+      "https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg"
+    ],
+    [
+      "skyboom",
+      "https://lhystutest.top",
+      "https://avatars.githubusercontent.com/u/97374782?v=4"
+    ],
+    [
+      "噗派吖",
+      "https://pupua.top",
+      "https://image.pupua.top/avator.jpg"
+    ],
+    [
+      "KEVIN'S BLOG",
+      "https://blog.kevinchu.top",
+      "https://static.kevinchu.top/blog/assets/img/avatar_03.jpg"
+    ],
+    [
+      "冬天的小窝",
+      "https://www.iamdt.cn/",
+      "https://img.iamdt.cn/2023/09/26/6512ccfe73f56.png"
+    ]
+  ]
+}

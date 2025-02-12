@@ -3,7 +3,7 @@ title: 📸Shot-Nanchang
 description: Nanchang
 date: 2023-08-17 08:00:00
 updated:
-tags: [南昌,滕王阁,春游]
+tags: [旅拍]
 categories: 画廊
 keywords: 南昌,CCD
 top_img: '/image/Nanchang/IMG.jpeg'

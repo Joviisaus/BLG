@@ -64,7 +64,7 @@ cv::imwrite(filename, image);
 
 ### Texture 模型渲染结果
 
-![Texture](/image/rp/Texture.png)
+![Texture](/image/rp/texture.png)
 
 ## 三渲二具体实现
 
@@ -160,7 +160,7 @@ Eigen::Vector3f Three_R_Two(const fragment_shader_payload& payload)
 }
 ```
 
-![3R2](/image/rp/3R2.png)
+![3R2](/image/rp/3r2.png)
 
 ### 描边
 

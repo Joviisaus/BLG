@@ -30,19 +30,15 @@
       siteshot: https://avatars.githubusercontent.com/u/97374782?v=4
       color: speed
       tag: 技术
-    - name: 噗派吖
-      link: https://pupua.top
-      descr: 生活索然无味，马原拯救人类
-      avatar: https://image.pupua.top/avator.jpg
-      recommend: true
     - name: KEVIN'S BLOG
       descr: Kevin的博客
       link: https://blog.kevinchu.top
       avatar: https://static.kevinchu.top/blog/assets/img/avatar_03.jpg
-      recommend: true
+      siteshot: https://static.kevinchu.top/blog/assets/img/avatar_03.jpg
     - name: 冬天的小窝
       link: https://www.iamdt.cn/
       avatar: https://img.iamdt.cn/2023/09/26/6512ccfe73f56.png
+      siteshot: https://img.iamdt.cn/2023/09/26/6512ccfe73f56.png
       descr: 人生若只如初见，何事秋风悲画扇。
     - name: 我剑也未尝不利
       link: https://tch.cool

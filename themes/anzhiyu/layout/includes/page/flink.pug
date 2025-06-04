@@ -38,13 +38,13 @@
                       img.no-lightbox(title=oddNum[index].name, src=url_for(oddNumAvatar + hundredSuffix) onerror=`this.onerror=null;this.src='` + url_for(theme.error_img.flink) + `'` alt=oddNum[index].name)
   .title-h2-a
     .title-h2-a-left
-      h2(style='padding-top:0;margin:.6rem 0 .6rem') 🎣 钓鱼
-      a.random-post-start.no-text-decoration(href='javascript:fetchRandomPost();')
-        i.anzhiyufont.anzhiyu-icon-arrow-rotate-right
-    .title-h2-a-right
-      a.random-post-all.no-text-decoration(href='/link/') 全部友链
-  #random-post
-  script(defer data-pjax src=url_for(theme.asset.random_friends_post_js))
+  //     h2(style='padding-top:0;margin:.6rem 0 .6rem') 🎣 钓鱼
+  //     a.random-post-start.no-text-decoration(href='javascript:fetchRandomPost();')
+  //       i.anzhiyufont.anzhiyu-icon-arrow-rotate-right
+  //   .title-h2-a-right
+  //     a.random-post-all.no-text-decoration(href='/link/') 全部友链
+  // #random-post
+  // script(defer data-pjax src=url_for(theme.asset.random_friends_post_js))
   
   .flink
     if site.data.link

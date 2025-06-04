@@ -18,7 +18,7 @@ background: "#fff"
 
 项目地址: [GeoHub](https://geohubdut.netlify.app)
 
-![Page](/image/GeoHub/GeoHub-post.png)
+![Page](/image/GeoHub/Geohub-post.png)
 
 GeoHub 是一个大连理工大学大型工业软件特色班用于对接本科生工作的平台，旨在为本科生提供一个便捷的工作管理和交流平台。使用 [ScrewFast](https://screwfast.uk)模板，[astro](https://astro.build/) 框架，静态部署在[Netlify](https://www.netlify.com/)上。
 

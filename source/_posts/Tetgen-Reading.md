@@ -33,10 +33,10 @@ The methodology of TetGen is a mixture of a classical boundary constrained metho
 
 ### Delaunay Tetrahedralization
 
-the Bowyer-Watson [Bowyer 1987; Watson 1987] and the randomized flip [Edelsbrunner and Shah 1997] algorithms
+the Bowyer-Watson and the randomized flip algorithms
 
 - efficient vertex insertion (Bowyer-Watson algorithm)
-  first sorts the points through a spatial point sorting scheme [Boissonnat et al. 2009]. Inserting points based on this order, each point can be located efficiently (in nearly constant time)
+  first sorts the points through a spatial point sorting scheme. Inserting points based on this order, each point can be located efficiently (in nearly constant time)
 
 ### Constrained Tetrahedral Mesh Generation
 
@@ -46,7 +46,7 @@ the Bowyer-Watson [Bowyer 1987; Watson 1987] and the randomized flip [Edelsbrunn
 
 **Constrained Delaunay Tetrahedralization (CDT)**
 
-1. Shewchuk proved a useful condition that guarantees the existence of a CDT without adding Steiner points when all input edges are Delaunay [Shewchuk 1998a] $\rightarrow$ Non Steiner points adding
+1. Shewchuk proved a useful condition that guarantees the existence of a CDT without adding Steiner points when all input edges are Delaunay $\rightarrow$ Non Steiner points adding
 2. **edge removal algorithm** :A key operation in the recovery of constraints is to remove an edge from a tetrahedral mesh. $\rightarrow$ With optimal Steiner points adding
 
 ### Quality Tetrahedral Mesh Generation
@@ -87,7 +87,7 @@ $\mathbf{T}$ :
 3. When traveling from one tetrahedron to one of its adjacent tetrahedra
    $(t_1.v_1)$ to $(t_2,v_2)$
    $t_2$ : logged inside $t_1$
-   $v_2$:
+   $v_2$: get from table
 
 # LOCAL MESH TRANSFORMATIONS
 
@@ -149,22 +149,22 @@ Robust: apply a sequence of flips to update the tetrahedralization
 
 - orient3D test：decides the position of a point relative to a plane defined by three other noncollinear points
 - in sphere test：decides whether a point lies in the relative inside or outside of a sphere defined by four other noncoplanar points.
-  $orient3D(a, b, c, d) = sign(det(A))$ and $in\_sphere(a, b, c, d, e) = sign(det(B))$
+  $orient3D(a, b, c, d) = sign(det(A))$ and $in \_ sphere(a, b, c, d, e) = sign(det(B))$
   $$
   A = \begin{bmatrix}
-  a_x & a_y & a_z & 1 \\
-  b_x & b_y & b_z & 1 \\
-  c_x & c_y & c_z & 1 \\
-  d_x & d_y & d_z & 1 \\
+  a_x & a_y & a_z & 1 \newline
+  b_x & b_y & b_z & 1 \newline
+  c_x & c_y & c_z & 1 \newline
+  d_x & d_y & d_z & 1 \newline
   \end{bmatrix}
   $$
   $$
   B = \begin{bmatrix}
-  a_x & a_y & a_z, & a_x^2 + a_y^2 + a_z^2 & 1 \\
-  b_x & b_y & b_z, & b_x^2 + b_y^2 + b_z^2 & 1 \\
-  c_x & c_y & c_z, & c_x^2 + c_y^2 + c_z^2 & 1 \\
-  d_x & d_y & d_z, & d_x^2 + d_y^2 + d_z^2 & 1 \\
-  e_x & e_y & e_z, & e_x^2 + e_y^2 + e_z^2 & 1 \\
+  a_x & a_y & a_z, & a_x^2 + a_y^2 + a_z^2 & 1 \newline
+  b_x & b_y & b_z, & b_x^2 + b_y^2 + b_z^2 & 1 \newline
+  c_x & c_y & c_z, & c_x^2 + c_y^2 + c_z^2 & 1 \newline
+  d_x & d_y & d_z, & d_x^2 + d_y^2 + d_z^2 & 1 \newline
+  e_x & e_y & e_z, & e_x^2 + e_y^2 + e_z^2 & 1 \newline
   \end{bmatrix}
   $$
 
@@ -191,7 +191,7 @@ starting from a tetrahedron containing the last inserted point, the next point c
 
 - presorts the points,then inserts the points in this order.
 - point location:stochastic walk algorithm:stochastic walk algorithm
-- degenerate cases:used a simplified symbolic perturbation scheme ,that is, 5 or more points share a common sphere, so that the in $sphere\_test$ never returns a zero, thus there is always one canonical Delaunay tetrahedralization of any point set.
+- degenerate cases:used a simplified symbolic perturbation scheme ,that is, 5 or more points share a common sphere, so that the in $sphere \_ test$ never returns a zero, thus there is always one canonical Delaunay tetrahedralization of any point set.
 
 # CONSTRAINED TETRAHEDRAL MESH GENERATION
 

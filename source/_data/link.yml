@@ -20,18 +20,15 @@
       link: https://blog.anheyu.com/
       avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
       descr: 生活明朗，万物可爱
-      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
       color: vip
       tag: 综合
     - name: KEVIN'S BLOG
       descr: Kevin的博客
       link: https://blog.kevinchu.top
       avatar: https://static.kevinchu.top/blog/assets/img/avatar_03.jpg
-      siteshot: https://static.kevinchu.top/blog/assets/img/avatar_03.jpg
     - name: 冬天的小窝
       link: https://www.iamdt.cn/
       avatar: https://img.iamdt.cn/2023/09/26/6512ccfe73f56.png
-      siteshot: https://img.iamdt.cn/2023/09/26/6512ccfe73f56.png
       descr: 人生若只如初见，何事秋风悲画扇。
     - name: 我剑也未尝不利
       link: https://tch.cool

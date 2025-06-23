@@ -23,13 +23,6 @@
       siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
       color: vip
       tag: 综合
-    - name: skyboom
-      link: https://lhystutest.top
-      avatar: https://avatars.githubusercontent.com/u/97374782?v=4
-      descr: 春风若有怜花意，可否许我再少年
-      siteshot: https://avatars.githubusercontent.com/u/97374782?v=4
-      color: speed
-      tag: 技术
     - name: KEVIN'S BLOG
       descr: Kevin的博客
       link: https://blog.kevinchu.top

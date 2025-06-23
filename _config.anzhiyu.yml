@@ -72,7 +72,7 @@ social:
 author_status:
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
-  statusImg: "https://cdn.jsdelivr.net/gh/zhheo/Sticker-Heo@latest/Sticker/我看好你.png"
+  statusImg: "https://bu.dusays.com/2021/01/15/f0b5dae50d7b6.gif"
   skills:
     - 📖 研1入学摆烂中
     - 🏋️ 爱健身的小飞舞
@@ -427,7 +427,7 @@ footer:
   bdageitem:
     enable: true
     list:
-      - link: https://hexo.io/ #徽标指向网站链接
+      - link: https://hexo.io/ #徽标指���网站链接
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
         message: 博客框架为Hexo_v5.4.0 #徽标提示语
       - link: https://blog.anheyu.com/

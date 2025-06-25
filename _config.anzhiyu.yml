@@ -1231,6 +1231,7 @@ inject:
     # - <script src="/js/xxx"></script>
     - <script defer="true" src="/js/welcome.js"></script>
     - <script type="text/javascript" src="https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js"></script> # jquery.min.js
+    - <script src="/js/countdown.js"></script>
 # CDN
 # Don't modify the following settings unless you know how they work
 # 非必要请不要修改

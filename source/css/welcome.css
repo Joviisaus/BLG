@@ -1,0 +1,7 @@
+#welcome-info {
+  overflow: hidden;
+  border-radius: 14px;
+  --kouseki-welcome-color: #ff7242;
+  --kouseki-ip-color: #fb9fa3;
+  --kouseki-gl-size: 16px !important;
+}

@@ -1,27 +1,106 @@
-- class_name: 框架
+- class_name: NAOSI de 小伙伴们
   flink_style: flexcard
   hundredSuffix: ""
   link_list:
-    - name: Hexo
-      link: https://hexo.io/zh-tw/
-      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
-      descr: 快速、简单且强大的网站框架
-    - name: anzhiyu主题
-      link: https://blog.anheyu.com/
-      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
-      descr: 生活明朗，万物可爱
-      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+    - name: Saurlax
+      link: https://saurlax.com/
+      descr: Web, IoT, ML, Cybersecurity and Graphics developer.
+      rss: https://saurlax.com/feed.xml
+      avatar: https://saurlax.com/avatar.jpg
+    - name: Augists
+      link: https://augists.top
+      descr: Life Sharing & Ideas in Coding
+      rss: https://augists.top/atom.xml
+      avatar: https://github.com/Augists.png
+    - name: lxwx 的备忘录
+      link: https://www.lxtend.com
+      descr: 灌水中
+      rss: https://www.lxtend.com/atom.xml
+      avatar: https://www.lxtend.com/my_avatar.jpg
+    - name: 1Liu
+      link: https://www.ac1liu.tech
+      descr: 嗯？
+      avatar: https://blog.ac1liu.tech/img/avatar.png
+    - name: Zenith
+      link: https://smallgoodgood.top/
+      descr: 未经审视的人生是不值得过的人生
+      avatar: https://smallgoodgood.top/images/23.jpg
+    - name: Beautyyu 言醴
+      link: https://blog.beautyyu.one/
+      descr: 积极换主题，从来不写文
+      rss: https://blog.beautyyu.one/feed
+      avatar: https://github.com/BeautyyuYanli.png
+    - name: Acidbarium
+      link: https://acidbarium.github.io/
+      descr: 愛あるが故に！
+      rss: https://acidbarium.github.io/atom.xml
+      avatar: https://acidbarium.github.io/img/tou.png
+    - name: 睡觉型学渣
+      link: http://constfrost.com/
+      descr: 随意加友链~
+      rss: http://constfrost.com/feed.xml
+      avatar: https://lrd12345.oss-cn-beijing.aliyuncs.com/img/D95F9FAB3C948E6C5D5AAE4F3E3E2E5E.jpg
+    - name: 无尘车间
+      link: https://dawncraft.cc/
+      descr: Android, backend, embedded system and indie game developer.
+      rss: https://dawncraft.cc/feed/
+      avatar: https://dawncraft.cc/wp-content/uploads/2021/04/qingchenw.jpg
+    - name: dpp-alivender
+      link: http://dpp-alivender.life/
+      descr: 回溯点
+      avatar: http://alivender-assets.oss-cn-beijing.aliyuncs.com/wp-content/uploads/2023/05/QQ图片20230520175459.jpg
+    - name: For1moc
+      link: https://for1moc.xlog.app/
+      descr: 签到型CTFer
+      avatar: https://github.com/FORIMOC.png
+    - name: Integral
+      link: https://blog.i7.homes/
+      descr: Free Software Enthusiast, Arch Linux user & @archlinuxcn maintainer
+      avatar: https://github.com/Integral-Tech.png
+    - name: kpmark
+      link: https://kpmark.icu/
+      descr: 不知道的哦
+      rss: https://kpmark.icu/blog/atom.xml
+      avatar: https://kpmark.icu/static/nav_avatar.jpg
+    - name: LangQi99
+      link: https://langqi99.com
+      descr: 好吃！
+      rss: https://langqi99.com/rss.xml
+      avatar: https://langqi99.com/profile.png
+    - name: Lentinel
+      link: https://lentinel.link
+      descr: 把光芒洒向更开阔的地方
+      rss: https://lentinel.link/rss.xml
+      avatar: https://lentinel.link/upload/avatar.jpg
+    - name: 你不定积分没加C
+      link: https://linyang.ink/
+      rss: https://blog.linyang.ink/rss.xml
+      avatar: https://blog.linyang.ink/images/avatar.jpg
+    - name: Ruida Li's Blog
+      link: https://ruida.li/
+      descr: 摆烂基地
+      rss: https://ruida.li/rss.xml
+      avatar: https://pic.ruida.li/icon.jpg
+    - name: QMMMS
+      link: https://qmmms.github.io
+      descr: 赛博升哥
+      rss: https://qmmms.github.io/feed.xml
+      avatar: https://github.com/QMMMS.png
+    - name: RXCCCCCC
+      link: https://rxcccccc.github.io/
+      descr: 哦哦哦哦耶耶耶耶
+      rss: https://rxcccccc.github.io/atom.xml
+      avatar: https://rxcccccc.github.io/image/avatar.jpg
+    - name: songhahaha
+      link: https://songhahaha.top
+      descr: 这个人很懒，没有写博客描述
+      rss: https://songhahaha.top/rss.xml
+      avatar: https://songhahaha.top/profile.png
 
 - class_name: 推荐博客
   flink_style: telescopic
   hundredSuffix: ""
   link_list:
-    - name: 安知鱼
-      link: https://blog.anheyu.com/
-      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
-      descr: 生活明朗，万物可爱
-      color: vip
-      tag: 综合
     - name: KEVIN'S BLOG
       descr: Kevin的博客
       link: https://blog.kevinchu.top

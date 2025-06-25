@@ -1,0 +1,30 @@
+#loading-box
+  .cat__scene
+    .cat__main
+      .cat__body
+      .cat__body
+      .cat__tail
+      .cat__head
+
+script.
+  const preloader = {
+    endLoading: () => {
+      var loadingBox = document.getElementById('loading-box');
+      var loadingBoxme = document.getElementById('loading-box-me');
+      loadingBoxme.addEventListener('animationend', () => {setTimeout(function() {loadingBox.classList.add("loaded");}, 2000) })
+    },
+    initLoading: () => {
+      document.getElementById('loading-box').classList.remove("loaded")
+    },
+    otherendLoading: () => {
+      document.getElementById('loading-box').classList.add("loaded")
+    }
+  }
+  window.addEventListener('load',()=> { preloader.endLoading() })
+  setTimeout(function(){preloader.otherendLoading();},5000)
+
+  if (!{theme.pjax && theme.pjax.enable}) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.otherendLoading() })
+  } 
+
